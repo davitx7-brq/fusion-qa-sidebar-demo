@@ -1,0 +1,11 @@
+* { box-sizing: border-box; }
+body { margin: 0; display: flex; min-height: 100vh; font-family: system-ui, sans-serif; background: #f4f4f6; color: #1d1d1f; }
+.sidebar { width: 180px; background: #fff; border-right: 1px solid #e3e3e8; display: flex; flex-direction: column; padding: 16px 8px; }
+.brand { font-weight: 700; padding: 8px; margin-bottom: 12px; }
+.menu, .submenu { list-style: none; margin: 0; padding: 0; }
+.submenu { padding-left: 16px; }
+.menu a, .settings { display: block; padding: 8px; border-radius: 6px; color: inherit; text-decoration: none; }
+.menu a:hover, .settings:hover { background: #f0e6e6; }
+.menu a.active { background: #f6dede; color: #b3261e; }
+.settings { margin-top: auto; }
+.content { flex: 1; padding: 20px 32px; }

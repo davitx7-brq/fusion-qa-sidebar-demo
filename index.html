@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sidebar Demo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <aside class="sidebar" data-testid="sidebar">
+    <div class="brand">Demo App</div>
+    <nav>
+      <ul class="menu" data-testid="sidebar-menu">
+        <li><a href="#projetos" data-testid="nav-projetos">Projetos</a></li>
+        <li>
+          <a href="#workflows" data-testid="nav-workflows">Workflows</a>
+          <ul class="submenu">
+            <li><a href="#catalogo" data-testid="nav-catalogo">Catálogo</a></li>
+            <li><a href="#execucoes" data-testid="nav-execucoes">Execuções</a></li>
+          </ul>
+        </li>
+        <li><a href="#recursos" data-testid="nav-recursos">Recursos</a></li>
+        <li><a href="#apps" data-testid="nav-apps">Apps</a></li>
+        <li><a href="#chat" data-testid="nav-chat">Chat</a></li>
+        <li><a href="#conhecimento" data-testid="nav-conhecimento">Conhecimento</a></li>
+        <li><a href="#visao-geral" data-testid="nav-visao-geral">Visão geral</a></li>
+      </ul>
+    </nav>
+    <a class="settings" href="#configuracoes" data-testid="nav-configuracoes">Configurações</a>
+  </aside>
+  <main class="content">
+    <h1 id="page-title" data-testid="page-title">Projetos</h1>
+    <p>Selecione um item no menu lateral.</p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

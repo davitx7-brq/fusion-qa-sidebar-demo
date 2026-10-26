@@ -1,0 +1,10 @@
+{
+  "name": "fusion-qa-sidebar-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static demo app with a sidebar, used to test Fusion Agents QA skills",
+  "scripts": {
+    "start": "npx --yes serve -l 5173 ."
+  },
+  "license": "MIT"
+}
